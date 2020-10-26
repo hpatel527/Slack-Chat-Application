@@ -9,8 +9,11 @@ git clone git@github.com:hpatel527/Slack-Chat-Application.git
 # Install npm dependencies
 yarn
 
-# Install pod dependencies
-cd ios && pod install && cd ..
+# Install pod dependencies for IOS
+cd ios && npx pod install && cd ..
 
 # Run on ios simulator
-react-native run-ios
+npx react-native run-ios
+
+# Run on Android simulator
+npx react native run-android
